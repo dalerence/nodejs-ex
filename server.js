@@ -123,7 +123,7 @@ module.exports = app ;
 // serv.listen(2000);
 // console.log("Server Started")
 
-// var io = require('socket.io')(serv,{});
+var io = require('socket.io')(app,{});
 
 var SOCKET_LIST={};
 
